@@ -17,5 +17,9 @@ class TestAPI(unittest.TestCase):
         v = calculate_business_hours("2020-01-01", "2020-01-03T")
         self.assertIn(b"End time invalid:", v.body)
 
+    def test_large_difference(self):
+        v = calculate_business_hours("2000-01-01", "2030-12-31")
+        self.assertEqual(v.body, b"251553600")
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
