@@ -1,7 +1,6 @@
 python-dateutil
 fastapi
 uvicorn
-unittest
 pytest
 pytest-cov
 coveralls
