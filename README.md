@@ -6,13 +6,12 @@ A sample API application to show off FastAPI
 Requirements
 ============
 
-- `Python 3.8`_
-- `Docker`_
-- `Python Date Utilities`_
-- `PyTest`_
+- `Python 3.8`
+- `Docker`
+- `Heroku CLI`
 
-Running
-========
+Installation
+============
 
 Development
 ------------
@@ -38,7 +37,11 @@ uvicorn main:app --reload
 Production
 ----------
 
-Use docker to create a production image for deployment. You can choose any
+A docker container is deployed to Heroku for production use. Run the script to deploy to production.
+
+```
+./deploy.sh
+```
 
 Accessing the API
 ------------------
@@ -51,16 +54,16 @@ When running in development use
 http://localhost:8000/docs
 ```
 
+Continuous Integration
+=====================
+
+All commits to master runs a test build on Travis CI. ![Last Build](https://travis-ci.com/imraanparker/fastapi.svg?branch=master)
+
 Tests
 ======
 
-To run the tests, simply run
+To run the tests locally, simply run
 
 ```
 pytest
 ```
-
-License
-=======
-
-Free to use.
