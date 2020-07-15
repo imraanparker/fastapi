@@ -1,0 +1,19 @@
+language: python
+
+notifications:
+  email: false
+
+python:
+  - '3.8'
+
+dist: xenial
+
+before_script:
+  - pip install -U -r requirements.txt
+
+script:
+  - pytest --cov-config=.coveragerc --cov=python_package_template
+
+after_success:
+  - coveralls
+

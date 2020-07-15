@@ -1,0 +1,13 @@
+build/
+dist/
+.cache/
+.eggs/
+.project
+.pydevproject
+.settings/
+*.pyc
+/.idea
+/.xprocess
+.vscode/
+/venv
+FastAPI_Template.egg-info/
