@@ -1,3 +1,4 @@
+sudo docker build -t fastapi .
 heroku login
 heroku container:login
 heroku container:push web --app fastapi-template

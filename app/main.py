@@ -9,6 +9,7 @@ import uvicorn
 app = FastAPI()
 utils.setup_easter_holidays()
 
+
 @app.get("/")
 def status():
     """ Status check """
