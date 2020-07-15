@@ -9,7 +9,7 @@ python:
 dist: xenial
 
 before_script:
-  - pip install -U -r requirements.txt
+  - pip install -U -r app/requirements.txt
 
 script:
   - pytest --cov-config=.coveragerc --cov=python_package_template
