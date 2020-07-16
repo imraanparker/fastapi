@@ -65,7 +65,7 @@ https://fastapi-template.herokuapp.com/docs
 Continuous Integration
 =====================
 
-All API services are tested. ![Last Build](https://travis-ci.com/imraanparker/fastapi.svg?branch=master)
+All API services are tested. ![Last Build](https://travis-ci.com/imraanparker/fastapi.svg?token=jBQpiw8ckhUhBEp5MQqf&branch=master)
 
 Tests
 ======
