@@ -59,7 +59,7 @@ http://localhost:8000/docs
 The production URL is
 
 ```
-https://fastapi-template.herokuapp.com/docs
+https://<you_app_name>.herokuapp.com/docs
 ```
 
 Continuous Integration
