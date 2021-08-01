@@ -59,7 +59,7 @@ http://localhost:8000/docs
 The production URL is
 
 ```
-https://<you_app_name>.herokuapp.com/docs
+https://<your_app_name>.herokuapp.com/docs
 ```
 
 Continuous Integration
